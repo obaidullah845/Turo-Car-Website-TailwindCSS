@@ -9,7 +9,21 @@
 <body>
     <!-- header started -->
     <header>
-        <nav class="flex items-center justify-center pt-6 gap-210 fixed top-0 left-0 w-full bg-white">
+
+        <!-- Mobile Screen -->
+        <nav class="md:hidden lg:hidden flex items-center justify-between pt-4 px-6 fixed top-0 left-0 w-full bg-white">
+            <div>
+                <img class="w-18 cursor-pointer" src="./src/assets/images/turo-logo.png" alt="Turo-logo">
+            </div>
+                <div class="flex gap-3 cursor-pointer">
+                    <img class="w-5" src="./src/assets/icons/menu.png" alt="Menu Bar">
+                    <img class="w-5" src="./src/assets/icons/user.png" alt="User">
+                </div>
+        </nav>
+        <!-- Mobile Screen -->
+
+        <!-- Desktop Screen -->
+        <nav class="hidden md:flex lg:flex items-center justify-between pt-2 px-6 fixed top-0 left-0 w-full bg-white">
             <div>
                 <img class="w-23 cursor-pointer" src="./src/assets/images/turo-logo.png" alt="Turo-logo">
             </div>
@@ -23,6 +37,8 @@
                 </div>
             </div>
         </nav>
+        <!-- Desktop Screen -->
+         
     </header>
     <!-- header ended -->
 
