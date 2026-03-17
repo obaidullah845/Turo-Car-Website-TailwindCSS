@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turo</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <!-- header started -->
+    <header>
+        <nav class="flex items-center justify-center pt-6 gap-210 fixed top-0 left-0 w-full bg-white">
+            <div>
+                <img class="w-23 cursor-pointer" src="./src/assets/images/turo-logo.png" alt="Turo-logo">
+            </div>
+            <div class="flex items-center gap-5">
+                <div>
+                    <button class="border border-[#cccccc] py-1.5 px-5 text-[12px] rounded-md cursor-pointer font-semibold">Why Choose Turo</button>
+                </div>
+                <div class="flex gap-3 cursor-pointer">
+                    <img class="w-5" src="./src/assets/icons/menu.png" alt="Menu Bar">
+                    <img class="w-5" src="./src/assets/icons/user.png" alt="User">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header ended -->
+
+    <!-- main started -->
+    <main>
+        <!-- section-1 started -->
+    <!-- <section>
+        <div class="flex justify-center pt-18">
+            <div class="bg-[#00688d] w-285 mt-5 border border-[#00688d] rounded-2xl pt-12 pb-10">
+                <div class="text-[#ffffff] text-center">
+                    <h1 class="text-[38px] font-bold font-canela">Skip the rental car counter</h1>
+                    <p class="text-[17px]">Rent just about any car, just about anywhere</p>
+                </div>
+                <div class="flex gap-5 mt-4 w-230 ml-25 rounded-2xl py-3 pl-3 bg-[#ffffff]">
+                    <div>
+                        <h3 class="text-gray-700 text-[13px]">Where</h3>
+                        <input class="w-52 hover:outline-none" type="text" placeholder="City, airport, address or hotel">
+                    </div>
+                    <p class="text-4xl text-gray-200">|</p>
+                    <div>
+                        <h3 class="text-gray-700 text-[13px]">From</h3>
+                        <div class="flex gap-6">
+                            <div class="flex cursor-pointer">
+                                <input class="w-24 cursor-pointer hover:outline-none" type="text" placeholder="Add dates">
+                                <img class="w-5 cursor-pointer hover:outline-none" src="./src/assets/icons/down.png" alt="down">
+                            </div>
+                            <div class="flex pr-2 cursor-pointer hover:outline-none">
+                                <input class="w-24 cursor-pointer hover:outline-none" type="text" placeholder="Add time">
+                                <img class="w-5" src="./src/assets/icons/down.png" alt="down">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-4xl text-gray-200">|</p>
+                    <div>
+                        <h3 class="text-gray-700 text-[13px]">Until</h3>
+                        <div class="flex gap-6">
+                            <div class="flex cursor-pointer hover:outline-none">
+                                <input class="w-24 cursor-pointer hover:outline-none" type="text" placeholder="Add dates">
+                                <img class="w-5 cursor-pointer" src="./src/assets/icons/down.png" alt="down">
+                            </div>
+                            <div class="flex pr-3 cursor-pointer hover:outline-none">
+                                <input class="w-24 cursor-pointer hover:outline-none" type="text" placeholder="Add time">
+                                <img class="w-5" src="./src/assets/icons/down.png" alt="down">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="bg-[#593cfb] rounded-[10px] h-10 py-2 px-2 cursor-pointer" src="./src/assets/icons/search.png" alt="Search">
+                    </div>
+                </div>
+                <div>
+                <button class="bg-white flex gap-4 py-1 px-3 rounded-[10px] ml-115 mt-8 items-center cursor-pointer">
+                        <h3 class="font-semibold">Get to know Turo</h3>
+                        <p class="text-2xl text-gray-200 pb-1">|</p>
+                        <img class="w-3 h-3" src="./src/assets/icons/right-arrow.png" alt="right-arrow">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section-1 ended -->
+
+    <!-- section-2 started -->
+    <!-- <section>
+        <div class="flex justify-center py-8">
+            <div class="flex">
+                <ul class="flex gap-4">
+                    <li class="bg-black text-white flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/car.png" alt="car">
+                        All
+                    </li>
+                    <li class=" flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/airplane.png" alt="airplane">
+                        Airports
+                    </li>
+                    <li class=" flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/calendar.png" alt="calendar">
+                        Monthly
+                    </li>
+                    <li class=" flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/pin.png" alt="pin">
+                        Nearby
+                    </li>
+                    <li class=" flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/arrow-right.png" alt="arrow-right">
+                        Delivered
+                    </li>
+                    <li class=" flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/cities.png" alt="cities">
+                        Cities
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+    <!-- section-2 ended -->
+
+    <!-- section-3 started -->
+    <!-- <section>
+        <div class="flex justify-center mb-5">
+            <div class="flex w-285">
+                <div class="flex items-center gap-3">
+                    <h3 class="text-[22px] font-bold">Truck rental at Denver (DEN) airport</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section-3 ended -->
+
+    <!-- section-4 started -->
+    <section>
+        <div class="flex justify-center">
+            <div class="flex w-285 gap-5 mb-8">
+
+                <!-- div-1 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car1.avif" alt="car1">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Toyota Tacoma 2025</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(4 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $3</button>
+                            <h4 class="font-bold text-[18px]">$306 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car2.avif" alt="car2">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Jeep Gladiator 2023</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.99</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(152 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $3</button>
+                            <h4 class="font-bold text-[18px]">$285 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car3.avif" alt="car3">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Jeep Gladiator 2022</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.98</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(136 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $7</button>
+                            <h4 class="font-bold text-[18px]">$259 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car4.avif" alt="car4">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Ford F-150 Lightning</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.93 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(81 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $8</button>
+                            <h4 class="font-bold text-[18px]">$283 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-4 ended -->
+
+            </div>
+        </div>
+    </section>
+    <!-- section-4 ended -->
+
+    <!-- section-5 started -->
+    <!-- <section>
+        <div class="flex justify-center mb-5">
+            <div class="flex w-285">
+                <div class="flex items-center gap-3">
+                    <h3 class="text-[22px] font-bold">Tesla rental in Newark</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section-5 ended -->
+
+    <!-- section-6 started -->
+    <section>
+        <div class="flex justify-center">
+            <div class="flex w-285 gap-5 mb-8">
+
+                <!-- div-1 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car5.avif" alt="car5">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Tesla Model 3 2025</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(1 trip)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $17</button>
+                            <h4 class="font-bold text-[18px]">$239 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car6.avif" alt="car6">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Tesla Model Y 2023</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(2 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $2</button>
+                            <h4 class="font-bold text-[18px]">$290 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car7.avif" alt="car7">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Tesla Model Y 2025</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.94</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(70 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $2</button>
+                            <h4 class="font-bold text-[18px]">$210 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car8.avif" alt="car8">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Tesla Model 3 2021</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.94 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(34 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $0</button>
+                            <h4 class="font-bold text-[18px]">$258 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-4 ended -->
+                 
+            </div>
+        </div>
+    </section>
+    <!-- section-6 ended -->
+
+    <!-- section-7 started -->
+    <!-- <section>
+        <div class="flex justify-center mb-5">
+            <div class="flex w-285">
+                <div class="flex items-center gap-3">
+                    <h3 class="text-[22px] font-bold">Truck rental in San Francisco</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section-7 ended -->
+
+    <!-- section-8 started -->
+    <section>
+        <div class="flex justify-center">
+            <div class="flex w-285 gap-5 mb-8">
+
+                <!-- div-1 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car9.avif" alt="car9">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Chevrolet Silverado EV</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(1 trip)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $2</button>
+                            <h4 class="font-bold text-[18px]">$214 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car10.avif" alt="car10">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Ram 2500 2022</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.5</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(2 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $31</button>
+                            <h4 class="font-bold text-[18px]">$352 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car11.avif" alt="car11">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Nissan Frontier 2015</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(16 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $7</button>
+                            <h4 class="font-bold text-[18px]">$139 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car12.avif" alt="car12">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Ford Maverick 2024</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(52 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $14</button>
+                            <h4 class="font-bold text-[18px]">$264 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-4 ended -->
+                 
+            </div>
+        </div>
+    </section>
+    <!-- section-8 ended -->
+
+    <!-- section-9 started -->
+    <!-- <section>
+        <div class="flex justify-center mb-5">
+            <div class="flex w-285">
+                <div class="flex items-center gap-3">
+                    <h3 class="text-[22px] font-bold">Audi rental at Orlando (MCO) airport</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section-9 ended -->
+
+    <!-- section-10 started -->
+    <section>
+        <div class="flex justify-center">
+            <div class="flex w-285 gap-5 mb-8">
+
+                <!-- div-1 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car13.avif" alt="car13">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Audi A3 2020</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(6 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $0</button>
+                            <h4 class="font-bold text-[18px]">$165 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car14.avif" alt="car14">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Audi A3 2023</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(1 trip)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $8</button>
+                            <h4 class="font-bold text-[18px]">$189 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car15.avif" alt="car15">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Audi A3 2022</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(3 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $8</button>
+                            <h4 class="font-bold text-[18px]">$192 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car16.avif" alt="car16">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Audi A6 2021</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.93</p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(80 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $6</button>
+                            <h4 class="font-bold text-[18px]">$224 for 3 days</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-4 ended -->
+                 
+            </div>
+        </div>
+    </section>
+    <!-- section-10 ended -->
+
+    <!-- section-11 started -->
+    <!-- <section>
+        <div class="flex justify-center mb-5">
+            <div class="flex w-285">
+                <div class="flex items-center gap-3">
+                    <h3 class="text-[22px] font-bold">Monthly newer car rentals in Denver</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- section-11 ended -->
+
+    <!-- section-12 started -->
+    <section>
+        <div class="flex justify-center">
+            <div class="flex w-285 gap-5 mb-8">
+
+                <!-- div-1 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car17.avif" alt="car17">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Chevrolet Trax 2026</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p class="text-gray-600">New listing</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $518/mo</button>
+                            <h4 class="font-bold text-[18px]">$1036/month</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car18.avif" alt="car18">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Cadillac LYRIQ 2026</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p class="text-gray-600">New listing</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $733/mo</button>
+                            <h4 class="font-bold text-[18px]">$2565/month</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car19.avif" alt="car19">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Kia Sportage Hybrid</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(1 trip)</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $746/mo</button>
+                            <h4 class="font-bold text-[18px]">$1172/month</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <!-- <div class="cursor-pointer">
+                    <div>
+                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car20.avif" alt="car20">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold pt-2">Rivian R1S 2026</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p class="text-gray-600">New listing</p>
+                        </div>
+                        <div class="flex justify-between mt-14">
+                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $2295/mo</button>
+                            <h4 class="font-bold text-[18px]">$2295/month</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- div-4 ended -->
+                 
+            </div>
+        </div>
+    </section>
+    <!-- section-12 ended -->
+    </main>
+    <!-- main ended -->
+
+    <!-- footer started -->
+    <footer>
+        <!-- <div class="flex justify-center">
+            <div class="flex w-285 flex-col gap-5 my-12">
+                <div class="text-gray-300">
+                    <hr>
+                </div>
+                <div class="flex w-full px-16 pt-8 pb-6 gap-25"> -->
+                    <!-- footer-1 started -->
+                    <!-- <div>
+                        <h1 class="font-bold mb-4">Turo</h1>
+                        <ul>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">About</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Team</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Policies</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Careers</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Press</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">OpenRoad</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!-- footer-1 ended -->
+                    
+                    <!-- footer-2 started -->
+                    <!-- <div>
+                        <h1 class="font-bold mb-4">Locations</h1>
+                        <ul>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">USA (EN)</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Australia (EN)</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Canada (EN)</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Canada (FR)</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">France (FR)</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">UK (EN)</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!-- footer-2 ended -->
+                    
+                    <!-- footer-3 started -->
+                    <!-- <div>
+                        <h1 class="font-bold mb-4">Explore</h1>
+                        <ul>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Why choose Turo</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Pitch a trip</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Trust & safety</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Get help</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!-- footer-3 ended -->
+                    
+                    <!-- footer-4 started -->
+                    <!-- <div>
+                        <h1 class="font-bold mb-4">Hosting</h1>
+                        <ul>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">List your car</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Carculator</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">All-Star Hosts</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Host tools</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Insurance & protection</a>
+                            </li>
+                            <li>
+                                <a class="text-[12px] font-semibold hover:underline" href="#">Host learning hub</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!-- footer-4 ended -->
+
+                    <!-- footer-5 started -->
+                    <!-- <div class="flex flex-col pr-20">
+                        <div class="flex gap-5 items-center">
+                            <img class="w-6 h-6 cursor-pointer" src="./src/assets/icons/facebook.png" alt="facebook">
+                            <img class="w-5 h-5 cursor-pointer" src="./src/assets/icons/instagram.png" alt="instagram">
+                            <img class="w-5 h-5 cursor-pointer" src="./src/assets/icons/tik-tok.png" alt="tik-tok">
+                            <img class="w-6 h-6 cursor-pointer" src="./src/assets/icons/youtube.png" alt="youtube">
+                            <button class="border border-black rounded-sm text-[12px] uppercase font-semibold  px-2 cursor-pointer">Blog</button>
+                        </div>
+                        <div class="flex gap-5 my-7">
+                            <img class="w-34 cursor-pointer" src="./src/assets/images/app-store.webp" alt="app-store">
+                            <img class="w-34 cursor-pointer" src="./src/assets/images/google-play.webp" alt="google-play">
+                        </div>
+                        <div class="flex mt-5 items-center gap-3 cursor-pointer">
+                            <img class="w-3" src="./src/assets/icons/up-arrow.png" alt="up-arrow">
+                            <img class="w-6" src="./src/assets/icons/flag.png" alt="flag">
+                            <p class="text-[14px] font-semibold">Urdu</p>
+                        </div>
+                    </div> -->
+                    <!-- footer-5 ended -->
+                </div>
+                <!-- <div class="flex gap-6 text-[12px] font-semibold px-16">
+                    <p>©2026 Obaidullah WD.</p>
+                    <div class="flex gap-6">
+                        <a class="hover:underline" href="#">Terms</a>
+                        <a class="hover:underline" href="#">Privacy</a>
+                        <a class="hover:underline" href="#">Cookie preferences</a>
+                        <a class="hover:underline" href="#">Do not sell or share my personal information</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </footer>
+    <!-- footer ended -->
+
+    
+
+    <!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
+</body>
+</html>

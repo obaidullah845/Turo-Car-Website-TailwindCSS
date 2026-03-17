@@ -1,0 +1,10 @@
+@font-face {
+    font-family: canela;
+    src: url(./assets/fonts/canela_bold.otf);
+}
+
+@import "tailwindcss";
+
+ @theme{
+    --font-canela: 'canela-bold'; 
+ }
