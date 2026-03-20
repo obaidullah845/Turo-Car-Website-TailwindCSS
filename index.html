@@ -44,7 +44,7 @@
 
     <!-- main started -->
     <main>
-        <!-- section-1 started -->
+    <!-- section-1 started -->
     <section>
 
         <!-- Mobile Screen -->
@@ -125,17 +125,56 @@
     <!-- section-1 ended -->
 
     <!-- section-2 started -->
-    <!-- <section>
-        <div class="flex justify-center py-8">
+    <section>
+        
+        <!-- Mobile Screen -->
+        <div class="md:hidden lg:hidden flex justify-center py-4">
+            <div class="flex overflow-x-auto no-scrollbar pl-6">
+                <ul class="flex gap-2">
+                    <li class="bg-black text-white shrink-0 flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/car.png" alt="car">
+                        All
+                    </li>
+                    <li class=" flex shrink-0 gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/airplane.png" alt="airplane">
+                        Airports & Stations
+                    </li>
+                    <li class=" flex shrink-0 gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/calendar.png" alt="calendar">
+                        Monthly
+                    </li>
+                    <li class=" flex shrink-0 gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/pin.png" alt="pin">
+                        Nearby
+                    </li>
+                    <li class=" flex shrink-0 gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/arrow-right.png" alt="arrow-right">
+                        Delivered
+                    </li>
+                    <li class=" flex shrink-0 gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/cities.png" alt="cities">
+                        Cities
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Mobile Screen -->
+
+        <!-- Desktop Screen -->
+        <div class="hidden md:flex lg:flex lg:justify-center md:px-6 py-8 md:pb-4">
             <div class="flex">
                 <ul class="flex gap-4">
                     <li class="bg-black text-white flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
                         <img class="w-4 h-4" src="./src/assets/icons/car.png" alt="car">
                         All
                     </li>
-                    <li class=" flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                    <li class="lg:hidden flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
                         <img class="w-4 h-4" src="./src/assets/icons/airplane.png" alt="airplane">
                         Airports
+                    </li>
+                    <li class="hidden lg:flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
+                        <img class="w-4 h-4" src="./src/assets/icons/airplane.png" alt="airplane">
+                        Airports & Stations
                     </li>
                     <li class=" flex gap-1.5 font-semibold items-center py-2 px-4 rounded-[10px] cursor-pointer">
                         <img class="w-4 h-4" src="./src/assets/icons/calendar.png" alt="calendar">
@@ -156,108 +195,507 @@
                 </ul>
             </div>
         </div>
-    </section> -->
+        <!-- Desktop Screen -->
+
+    </section>
     <!-- section-2 ended -->
 
     <!-- section-3 started -->
-    <!-- <section>
-        <div class="flex justify-center mb-5">
-            <div class="flex w-285">
+    <section>
+       <!-- Mobile Screen -->
+        <div class="md:hidden lg:hidden mb-5">
+            <div class="flex pl-6">
                 <div class="flex items-center gap-3">
-                    <h3 class="text-[22px] font-bold">Truck rental at Denver (DEN) airport</h3>
+                    <h3 class="text-[16px] font-bold">Truck rental at Denver (DEN) airport</h3>
                     <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
                 </div>
             </div>
-        </div>
-    </section> -->
-    <!-- section-3 ended -->
-
-    <!-- section-4 started -->
-    <section>
-        <div class="flex justify-center">
-            <div class="flex w-285 gap-5 mb-8">
-
+            <div class="pt-4 flex overflow-x-auto no-scrollbar pl-6 pr-4 gap-4">
                 <!-- div-1 started -->
-                <!-- <div class="cursor-pointer">
+                <div class="cursor-pointer shrink-0">
                     <div>
-                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car1.avif" alt="car1">
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car1.avif" alt="car1">
                     </div>
                     <div>
-                        <h1 class="text-2xl font-bold pt-2">Toyota Tacoma 2025</h1>
+                        <h1 class="text-[14px] font-bold pt-2">Toyota Tacoma 2025</h1>
                         <div class="flex items-center mt-1.5">
                             <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
                             <p class="text-gray-600 pl-2">(4 trips)</p>
                         </div>
-                        <div class="flex justify-between mt-14">
-                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $3</button>
-                            <h4 class="font-bold text-[18px]">$306 for 3 days</h4>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$306 for 3 days</h4>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!-- div-1 ended -->
 
                 <!-- div-2 started -->
-                <!-- <div class="cursor-pointer">
+                <div class="cursor-pointer shrink-0">
                     <div>
-                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car2.avif" alt="car2">
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car2.avif" alt="car2">
                     </div>
                     <div>
-                        <h1 class="text-2xl font-bold pt-2">Jeep Gladiator 2023</h1>
+                        <h1 class="text-[14px] font-bold pt-2">Jeep Gladiator 2023</h1>
                         <div class="flex items-center mt-1.5">
                             <p>4.99</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
                             <p class="text-gray-600 pl-2">(152 trips)</p>
                         </div>
-                        <div class="flex justify-between mt-14">
-                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $3</button>
-                            <h4 class="font-bold text-[18px]">$285 for 3 days</h4>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$285 for 3 days</h4>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!-- div-2 ended -->
 
                 <!-- div-3 started -->
-                <!-- <div class="cursor-pointer">
+                <div class="cursor-pointer shrink-0">
                     <div>
-                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car3.avif" alt="car3">
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car3.avif" alt="car3">
                     </div>
                     <div>
-                        <h1 class="text-2xl font-bold pt-2">Jeep Gladiator 2022</h1>
+                        <h1 class="text-[14px] font-bold pt-2">Jeep Gladiator 2022</h1>
                         <div class="flex items-center mt-1.5">
                             <p>4.98</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
                             <p class="text-gray-600 pl-2">(136 trips)</p>
                         </div>
-                        <div class="flex justify-between mt-14">
-                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $7</button>
-                            <h4 class="font-bold text-[18px]">$259 for 3 days</h4>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$259 for 3 days</h4>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!-- div-3 ended -->
 
                 <!-- div-4 started -->
-                <!-- <div class="cursor-pointer">
+                <div class="cursor-pointer shrink-0">
                     <div>
-                        <img class="w-72 rounded-[14px]" src="./src/assets/images/car4.avif" alt="car4">
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car4.avif" alt="car4">
                     </div>
                     <div>
-                        <h1 class="text-2xl font-bold pt-2">Ford F-150 Lightning</h1>
+                        <h1 class="text-[14px] font-bold pt-2">Ford F-150 Lightning</h1>
                         <div class="flex items-center mt-1.5">
                             <p>4.93 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
                             <p class="text-gray-600 pl-2">(81 trips)</p>
                         </div>
-                        <div class="flex justify-between mt-14">
-                            <button class="bg-[#01764d2b] rounded-sm text-[13px] text-[#01764de8] py-1 px-3 font-semibold">Save $8</button>
-                            <h4 class="font-bold text-[18px]">$283 for 3 days</h4>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$283 for 3 days</h4>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!-- div-4 ended -->
 
+                <!-- div-5 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car1-1.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Nissan Frontier</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.95 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(42 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$195 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-5 ended -->
+
+                <!-- div-6 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car1-2.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Jeep Gladiator</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(1 trip)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$265 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-6 ended -->
+
+                <!-- div-7 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car1-3.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Jeep Gladiator</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(12 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$292 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-7 ended -->
+
+                <!-- div-8 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car1-4.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Jeep Gladiator</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(06 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$308 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-8 ended -->
             </div>
         </div>
+       <!-- Mobile Screen -->
+
+       <!-- Desktop Screen -->
+        <div class="hidden md:block lg:block">
+            <div class="md:flex lg:flex md:mx-6 lg:mx-16 mb-5">
+            <div class="flex">
+                <div class="flex items-center gap-3">
+                    <h3 class="md:text-[16px] lg:text-[22px] font-bold">Truck rental at Denver (DEN) airport</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+            </div>
+        <div class="hidden md:flex lg:flex lg:justify-center overflow-x-auto no-scrollbar pl-6 lg:pl-4 pr-4 gap-4">
+                <!-- div-1 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car1.avif" alt="car1">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">Toyota Tacoma 2025</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(4 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$306 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car2.avif" alt="car2">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">Jeep Gladiator 2023</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.99</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(152 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$285 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car3.avif" alt="car3">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">Jeep Gladiator 2022</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.98</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(136 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$259 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car4.avif" alt="car4">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">Ford F-150 Lightning</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.93 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(81 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$283 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-4 ended -->
+            </div>
+        </div>
+       <!-- Desktop Screen -->
+    </section>
+    <!-- section-3 ended -->
+
+    <!-- section-4 started -->
+    <section>
+       <!-- Mobile Screen -->
+        <div class="md:hidden lg:hidden mb-5">
+            <div class="flex pl-6 pt-4">
+                <div class="flex items-center gap-3">
+                    <h3 class="text-[16px] font-bold">Luxury car rental at Orlando (MCO) airport</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+            <div class="pt-4 flex overflow-x-auto no-scrollbar pl-6 pr-4 gap-4">
+                <!-- div-1 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car5.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Lucid Air</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(13 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$343 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car6.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">BMW M4</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.88</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(30 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$432 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car7.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Chevrolet Corvette</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.92</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(12 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$514 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car8.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Mercedes-Benz CLE</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(37 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$495 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-4 ended -->
+
+                <!-- div-5 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car2-1.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Chevrolet Corvette</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.89 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(73 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$428 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-5 ended -->
+
+                <!-- div-6 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car2-2.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Chevrolet Corvette</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(46 trip)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$487 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-6 ended -->
+
+                <!-- div-7 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car2-3.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Chevrolet Corvette</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(25 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$478 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-7 ended -->
+
+                <!-- div-8 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="w-40 rounded-[14px]" src="./src/assets/images/car2-4.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] font-bold pt-2">Chevrolet Corvette</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(05 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$471 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-8 ended -->
+            </div>
+        </div>
+       <!-- Mobile Screen -->
+
+       <!-- Desktop Screen -->
+        <div class="hidden md:block lg:block">
+            <div class="md:flex lg:flex md:mx-6 lg:mx-16 mb-5">
+            <div class="flex pt-8">
+                <div class="flex items-center gap-3">
+                    <h3 class="md:text-[16px] lg:text-[22px] font-bold">Luxury car rental at Orlando (MCO) airport</h3>
+                    <img class="w-3.5 h-3.5" src="./src/assets/icons/right-arrow (1).png" alt="right-arrow">
+                </div>
+            </div>
+            </div>
+        <div class="hidden md:flex lg:flex lg:justify-center overflow-x-auto no-scrollbar pl-6 lg:pl-4 pr-4 gap-4">
+                <!-- div-1 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car5.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">Lucid Air</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(13 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$343 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-1 ended -->
+
+                <!-- div-2 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car6.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">BMW M4</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.88</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(30 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$432 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-2 ended -->
+
+                <!-- div-3 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car7.avif" alt="image">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">Chevrolet Corvette</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>4.92</p><img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(12 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$514 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-3 ended -->
+
+                <!-- div-4 started -->
+                <div class="cursor-pointer shrink-0">
+                    <div>
+                        <img class="md:w-55 lg:w-73 rounded-[14px]" src="./src/assets/images/car4.avif" alt="car4">
+                    </div>
+                    <div>
+                        <h1 class="text-[14px] lg:text-[22px] font-bold pt-2">Mercedes-Benz CLE</h1>
+                        <div class="flex items-center mt-1.5">
+                            <p>5.0 </p> <img class="w-4 h-4" src="./src/assets/icons/star.png" alt="star">
+                            <p class="text-gray-600 pl-2">(37 trips)</p>
+                        </div>
+                        <div class="flex justify-between mt-4">
+                            <h4 class="font-bold text-[14px]">$495 for 3 days</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- div-4 ended -->
+            </div>
+        </div>
+       <!-- Desktop Screen -->
     </section>
     <!-- section-4 ended -->
 
+
+
+
+    
     <!-- section-5 started -->
     <!-- <section>
         <div class="flex justify-center mb-5">
